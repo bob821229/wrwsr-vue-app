@@ -332,3 +332,51 @@ function sanitizeString(str){
  r = r.replace('&gt;', '>')
  return r;
 }
+
+
+/**
+ * Transforms a flat menu array into a hierarchical tree structure.
+ * @param {Array} list - The raw JSON array from your file.
+ * @returns {Array} - The nested tree structure.
+ */
+function buildMenuTree(list) {
+    const map = {};
+    const tree = [];
+
+    // 1. Initialize the map with all items and an empty subList
+    list.forEach(item => {
+        map[item.Id] = { ...item, subList: [] };
+    });
+
+    // 2. Build the tree
+    list.forEach(item => {
+        const mappedItem = map[item.Id];
+        
+        // If Parent is 0, it's a top-level node (Layer 1)
+        if (item.Parent === 0) {
+            tree.push(mappedItem);
+        } else {
+            // If it has a parent, push it into the parent's subList
+            const parent = map[item.Parent];
+            if (parent) {
+                parent.subList.push(mappedItem);
+            }
+        }
+    });
+
+    // 3. Sort the results based on the 'Ordinal' property to maintain menu order
+    const sortByOrdinal = (a, b) => a.Ordinal - b.Ordinal;
+    
+    const sortRecursively = (nodes) => {
+        nodes.sort(sortByOrdinal);
+        nodes.forEach(node => {
+            if (node.subList.length > 0) {
+                sortRecursively(node.subList);
+            }
+        });
+    };
+
+    sortRecursively(tree);
+    return tree;
+}
+
