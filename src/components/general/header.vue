@@ -1,5 +1,6 @@
 <script setup>
 import { onMounted, ref, inject } from "vue";
+import BaseIcon from "../base/BaseIcon.vue";
 
 const ifOnTest = false;
 const apiCallerValue = inject("apiCallerValue");
@@ -32,7 +33,6 @@ onMounted(async () => {
   <div v-if="ifOnTest">
     {{ userMenuList }}
   </div>
-
   <div class="header_block">
     <header class="header_outer">
       <div class="navleft w_100">
@@ -71,7 +71,7 @@ onMounted(async () => {
                   class="nav-link dropdown-toggle"
                   href="#"
                   data-bs-toggle="dropdown"
-                  >{{ layer1Menu.Label }}</a
+                  >{{ layer1Menu.Label }} <BaseIcon name="chevron-down"/></a
                 >
                 <ul
                   class="dropdown-menu menu1"
@@ -87,11 +87,13 @@ onMounted(async () => {
                       <div
                         class="outer d-flex align_center justify-content-between"
                       >
-                        <div class="link_item">
-                          <i class="ti ti-clock-hour-4"></i>
+                        <div class="link_item d-flex align-items-center " >
+                          <BaseIcon :name="layer2Menu.Glyphicon"/>
+                          {{ layer2Menu.Glyphicon }}
+                          <component :is="layer2Menu.Glyphicon"/>
                           <span class="">{{ layer2Menu.Label }}</span>
+                          <BaseIcon name="chevron-right"/>
                         </div>
-                        <i class="ti ti-chevron-right"> </i>
                       </div>
                     </a>
                     <ul
@@ -125,7 +127,6 @@ onMounted(async () => {
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <!-- <i class="ti ti-user-circle"> </i> -->
                <i class="bi bi-person"></i>
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
@@ -133,38 +134,6 @@ onMounted(async () => {
                 <a href="/DataSourceInfo/Home">資料來源頁面</a>
               </li>
             </ul>
-            <!-- <ul class="dropdown-menu dropdown-menu-end">
-                        @if (User.IsInRole(CommonHelper.RoleAdmin))
-                        {
-                            <li>
-                                @Html.ActionLink("使用者管理", "Index", "User", null, new { @class = "dropdown-item" })
-                            </li>
-                            <li>
-                                @Html.ActionLink("使用者鎖定管理", "LockoutList", "User", null, new { @class = "dropdown-item" })
-                            </li>
-                            <li>
-                                @Html.ActionLink("群組管理", "Index", "Role", null, new { @class = "dropdown-item" })
-                            </li>
-                            <li>
-                                @Html.ActionLink("單位管理", "Index", "Unit", null, new { @class = "dropdown-item" })
-                            </li>
-                            <li>
-                                @Html.ActionLink("存取記錄查詢", "Index", "ActionLog", null, new { @class = "dropdown-item" })
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="@(CommonHelper.GetSiteUrl(Url) + "twelmah")" target="_blank">Elmah Error Log</a>
-                            </li>
-                        }
-                        <li>
-                            @Html.ActionLink("資料來源頁面", "DataSourceInfo", "Home", null, new { @class = "dropdown-item" })
-                        </li>
-                        <li>
-                            @Html.ActionLink("變更密碼", "ChangePassword", "Manage", null, new { @class = "dropdown-item" })
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="javascript:document.getElementById('logoutForm').submit()">登出</a>
-                        </li>
-                    </ul> -->
           </div>
           
         </nav>
