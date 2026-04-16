@@ -38,11 +38,14 @@
                                 class="nav-item dropdown rain_menu"
                                 v-for="(layer1Menu, layer1Idx) in userMenuList"
                                 :key="layer1Idx"
+                                @mouseenter="isMobile ? null : onLayer1Hover(layer1Idx)"
+                                @mouseleave="isMobile ? null : onLayer1Leave(layer1Idx)"
                             >
                                 <a
                                     class="nav-link dropdown-toggle"
                                     href="#"
-                                    data-bs-toggle="dropdown"
+                                    @click.prevent="isMobile ? onLayer1Click(layer1Idx) : null"
+                                    :class="{ show: openedLayer1 === layer1Idx }"
                                     >{{ layer1Menu.Label }}
                                     <BaseIcon name="chevron-down"
                                 /></a>
@@ -52,14 +55,22 @@
                                         layer1Menu.subList != null &&
                                         layer1Menu.subList.length > 0
                                     "
+                                    :class="{ show: openedLayer1 === layer1Idx }"
                                 >
                                     <li
                                         v-for="(
                                             layer2Menu, layer2Idx
                                         ) in layer1Menu.subList"
                                         :key="layer2Idx"
+                                        @mouseenter="isMobile ? null : onLayer2Hover(layer1Idx, layer2Idx)"
+                                        @mouseleave="isMobile ? null : onLayer2Leave(layer1Idx, layer2Idx)"
                                     >
-                                        <a class="dropdown-item" href="#">
+                                        <a 
+                                            class="dropdown-item" 
+                                            href="#"
+                                            @click.prevent="isMobile && onLayer2Click(layer1Idx, layer2Idx)"
+                                            :class="{ show: openedLayer2[layer1Idx] === layer2Idx }"
+                                        >
                                             <div
                                                 class="outer d-flex align_center justify-content-between"
                                             >
@@ -68,7 +79,7 @@
                                                 >
                                                     <BaseIcon
                                                         :name="
-                                                            layer2Menu.Glyphicon
+                                                            layer2Menu.IconComponentName
                                                         "
                                                     />
                                                     <!-- {{ layer2Menu.Glyphicon }} -->
@@ -94,6 +105,7 @@
                                                 layer2Menu.subList != null &&
                                                 layer2Menu.subList.length > 0
                                             "
+                                            :class="{ show: openedLayer2[layer1Idx] === layer2Idx }"
                                         >
                                             <li
                                                 v-for="(
@@ -115,12 +127,15 @@
                         </ul>
                     </div>
                     <div
-                        class="btn-group sm_admin_acc user-menu-wrapper nav-item dropdown rain_menu"
+                        class="user-menu-wrapper nav-item dropdown rain_menu"
+                        @mouseenter="isMobile ? null : userMenuOpen = true"
+                        @mouseleave="isMobile ? null : userMenuOpen = false"
                     >
                         <button
                             class="dropdown-toggle user-menu-btn d-flex align-items-center gap-1"
                             type="button"
-                            data-bs-toggle="dropdown"
+                            @click.prevent="isMobile && (userMenuOpen = !userMenuOpen)"
+                            :class="{ show: userMenuOpen }"
                         >
                             <BaseIcon
                                 name="user-circle"
@@ -132,17 +147,18 @@
 
                         <ul
                             class="dropdown-menu dropdown-menu-end user-dropdown-menu"
+                            :class="{ show: userMenuOpen }"
                         >
                             <li v-for="item in userMenuItems" :key="item.label">
                                 <a
                                     class="dropdown-item"
                                     :href="item.href"
-                                    @click="
-                                        item.action &&
+                                    @click.prevent="
+                                        item.action ?
                                         handleUserMenuAction(
                                             item.action,
                                             $event,
-                                        )
+                                        ) : (window.location.href = item.href)
                                     "
                                 >
                                     {{ item.label }}
@@ -185,12 +201,72 @@
     </div>
 </template>
 <script setup>
-import { onMounted, ref, inject } from "vue";
+import { onMounted, ref, inject, computed } from "vue";
 import BaseIcon from "../base/BaseIcon.vue";
 
 const ifOnTest = false;
 const apiCallerValue = inject("apiCallerValue");
 const userMenuList = ref([]);
+
+// 檢測是否為行動設備
+const isMobile = ref(false);
+function checkIsMobile() {
+    isMobile.value = window.innerWidth < 992; // Bootstrap lg breakpoint
+}
+window.addEventListener('resize', checkIsMobile);
+onMounted(() => {
+    checkIsMobile();
+});
+
+// 菜單展開狀態
+const openedLayer1 = ref(null);
+const openedLayer2 = ref({});
+const userMenuOpen = ref(false);
+
+// 第一層菜單事件
+function onLayer1Hover(idx) {
+    openedLayer1.value = idx;
+}
+
+function onLayer1Leave(idx) {
+    openedLayer1.value = null;
+    openedLayer2.value = {};
+}
+
+function onLayer1Click(idx) {
+    if (openedLayer1.value === idx) {
+        // 已經打開，再點一次收起
+        openedLayer1.value = null;
+        openedLayer2.value = {};
+    } else {
+        // 打開新的第一層菜單，重置第二層
+        openedLayer1.value = idx;
+        openedLayer2.value = {};
+    }
+}
+
+// 第二層菜單事件
+function onLayer2Hover(layer1Idx, layer2Idx) {
+    openedLayer2.value[layer1Idx] = layer2Idx;
+}
+
+function onLayer2Leave(layer1Idx, layer2Idx) {
+    if (openedLayer2.value[layer1Idx] === layer2Idx) {
+        openedLayer2.value[layer1Idx] = null;
+    }
+}
+
+function onLayer2Click(layer1Idx, layer2Idx) {
+    if (openedLayer2.value[layer1Idx] === layer2Idx) {
+        openedLayer2.value[layer1Idx] = null;
+    } else {
+        // 先檢查第一層是否打開
+        if (openedLayer1.value !== layer1Idx && isMobile.value) {
+            openedLayer1.value = layer1Idx;
+        }
+        openedLayer2.value[layer1Idx] = layer2Idx;
+    }
+}
 
 // 控制選單收合
 const isNavVisible = ref(true);
@@ -244,32 +320,11 @@ onMounted(async () => {
             userMenuList.value = buildMenuTree(list);
         });
 });
+
 </script>
 
 <style scoped>
-/* .table > :not(:first-child) {
-        border-top: 2px solid #e0e0e0
-    }
 
-    table.table-bordered {
-        border: 1px solid #e0e0e0 !important;
-    }
-
-        table.table-bordered > thead > tr > th {
-            border: 1px solid #e0e0e0 !important;
-        }
-
-        table.table-bordered > tbody > tr > td {
-            border: 1px solid #e0e0e0 !important;
-        }
-
-    .leaflet-container {
-        background: white;
-    }
-
-    .modal {
-        z-index: 1300;
-    } */
 /* 縮放按鈕樣式 */
 .header-toggle {
     position: relative;
@@ -315,7 +370,6 @@ onMounted(async () => {
     color: #39a771;
 }
 
-/* 使用者選單樣式 */
 /* ===== dropdown item（完全照原樣）===== */
 .dropdown-menu .dropdown-item {
     font-family: "Noto Sans TC", sans-serif;
@@ -367,6 +421,38 @@ onMounted(async () => {
 .nav-link.dropdown-toggle:hover {
     color: #39a771;
 }
+
+/* ===== 自訂 dropdown 顯示邏輯 ===== */
+.dropdown-menu.show {
+    display: block;
+}
+
+.submenu.show {
+    display: block !important;
+}
+
+.nav-item.rain_menu:hover > .dropdown-menu:not(.show) {
+    display: block;
+}
+
+/* 使用者菜單樣式調整 */
+.user-menu-wrapper {
+    position: relative;
+}
+
+.user-menu-btn {
+    /* min-width: 140px; */
+    justify-content: flex-start;
+}
+
+.user-dropdown-menu {
+    /* min-width: 180px; */
+    /* max-height: 400px; */
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+}
+
 /* 使用者名稱（許弘毅） */
 .user-name {
     font-family: "Noto Sans TC", sans-serif;

@@ -1,0 +1,3736 @@
+[
+    {
+        "Soluction": "實際蓄水量",
+        "Values": [
+            {
+                "Date": "2026/03/25",
+                "Storage": 18415,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/04/01",
+                "Storage": 16078,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/18",
+                "Storage": 19842,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/30",
+                "Storage": 16760,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/04/08",
+                "Storage": 15851,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/14",
+                "Storage": 16385,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/09",
+                "Storage": 23986,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/13",
+                "Storage": 22090,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/04/03",
+                "Storage": 15813,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/19",
+                "Storage": 19657,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/04/05",
+                "Storage": 15787,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/04/06",
+                "Storage": 15707,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/27",
+                "Storage": 17760,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/29",
+                "Storage": 17100,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/12",
+                "Storage": 22552,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/15",
+                "Storage": 15885,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/20",
+                "Storage": 19706,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/31",
+                "Storage": 16424,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/16",
+                "Storage": 20748,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/21",
+                "Storage": 19455,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/04/07",
+                "Storage": 15865,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/11",
+                "Storage": 23219,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/17",
+                "Storage": 20292,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/23",
+                "Storage": 19157,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/22",
+                "Storage": 19312,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/28",
+                "Storage": 17433,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/04/02",
+                "Storage": 15921,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/04/04",
+                "Storage": 15792,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/24",
+                "Storage": 18880,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/10",
+                "Storage": 23659,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            },
+            {
+                "Date": "2026/03/26",
+                "Storage": 18089,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 0
+            }
+        ]
+    },
+    {
+        "Soluction": "期作-Q70",
+        "Values": [
+            {
+                "Date": "2026/04/09",
+                "Storage": 10510,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/10",
+                "Storage": 10456,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/11",
+                "Storage": 10402,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/12",
+                "Storage": 10353,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/13",
+                "Storage": 10305,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/14",
+                "Storage": 10256,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/15",
+                "Storage": 10207,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/16",
+                "Storage": 10158,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/17",
+                "Storage": 10110,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/18",
+                "Storage": 10061,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/19",
+                "Storage": 10012,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/20",
+                "Storage": 9964,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/21",
+                "Storage": 9915,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/22",
+                "Storage": 9869,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/23",
+                "Storage": 9823,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/24",
+                "Storage": 9777,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/25",
+                "Storage": 9731,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/26",
+                "Storage": 9685,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/27",
+                "Storage": 9639,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/28",
+                "Storage": 9594,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/29",
+                "Storage": 9548,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/30",
+                "Storage": 9502,
+                "Inflow": 29,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/01",
+                "Storage": 9456,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/02",
+                "Storage": 9475,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/03",
+                "Storage": 9495,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/04",
+                "Storage": 9514,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/05",
+                "Storage": 9534,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/06",
+                "Storage": 9554,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/07",
+                "Storage": 9573,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/08",
+                "Storage": 9593,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/09",
+                "Storage": 9612,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/10",
+                "Storage": 9632,
+                "Inflow": 95,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/11",
+                "Storage": 9651,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/12",
+                "Storage": 9776,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/13",
+                "Storage": 9902,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/14",
+                "Storage": 10027,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/15",
+                "Storage": 10152,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/16",
+                "Storage": 10277,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/17",
+                "Storage": 10402,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/18",
+                "Storage": 10528,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/19",
+                "Storage": 10653,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/20",
+                "Storage": 10778,
+                "Inflow": 200,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/21",
+                "Storage": 10903,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/22",
+                "Storage": 11374,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/23",
+                "Storage": 11845,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/24",
+                "Storage": 12316,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/25",
+                "Storage": 12787,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/26",
+                "Storage": 13258,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/27",
+                "Storage": 13729,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/28",
+                "Storage": 14200,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/29",
+                "Storage": 14670,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/30",
+                "Storage": 15141,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/31",
+                "Storage": 15612,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/01",
+                "Storage": 16083,
+                "Inflow": 884,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/02",
+                "Storage": 16892,
+                "Inflow": 884,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/03",
+                "Storage": 17701,
+                "Inflow": 884,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/04",
+                "Storage": 18510,
+                "Inflow": 884,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/05",
+                "Storage": 19319,
+                "Inflow": 884,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/06",
+                "Storage": 20129,
+                "Inflow": 884,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/07",
+                "Storage": 20938,
+                "Inflow": 884,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/08",
+                "Storage": 21747,
+                "Inflow": 884,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/09",
+                "Storage": 22556,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            }
+        ]
+    },
+    {
+        "Soluction": "期作-Q80",
+        "Values": [
+            {
+                "Date": "2026/04/09",
+                "Storage": 10510,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/10",
+                "Storage": 10454,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/11",
+                "Storage": 10398,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/12",
+                "Storage": 10347,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/13",
+                "Storage": 10295,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/14",
+                "Storage": 10244,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/15",
+                "Storage": 10193,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/16",
+                "Storage": 10142,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/17",
+                "Storage": 10091,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/18",
+                "Storage": 10039,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/19",
+                "Storage": 9988,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/20",
+                "Storage": 9937,
+                "Inflow": 24,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/21",
+                "Storage": 9886,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/22",
+                "Storage": 9837,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/23",
+                "Storage": 9788,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/24",
+                "Storage": 9739,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/25",
+                "Storage": 9691,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/26",
+                "Storage": 9642,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/27",
+                "Storage": 9593,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/28",
+                "Storage": 9545,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/29",
+                "Storage": 9496,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/30",
+                "Storage": 9447,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/01",
+                "Storage": 9398,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/02",
+                "Storage": 9400,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/03",
+                "Storage": 9402,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/04",
+                "Storage": 9403,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/05",
+                "Storage": 9405,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/06",
+                "Storage": 9407,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/07",
+                "Storage": 9408,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/08",
+                "Storage": 9410,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/09",
+                "Storage": 9411,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/10",
+                "Storage": 9413,
+                "Inflow": 77,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/11",
+                "Storage": 9415,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/12",
+                "Storage": 9502,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/13",
+                "Storage": 9589,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/14",
+                "Storage": 9676,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/15",
+                "Storage": 9764,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/16",
+                "Storage": 9851,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/17",
+                "Storage": 9938,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/18",
+                "Storage": 10025,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/19",
+                "Storage": 10113,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/20",
+                "Storage": 10200,
+                "Inflow": 162,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/21",
+                "Storage": 10287,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/22",
+                "Storage": 10655,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/23",
+                "Storage": 11022,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/24",
+                "Storage": 11389,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/25",
+                "Storage": 11757,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/26",
+                "Storage": 12124,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/27",
+                "Storage": 12492,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/28",
+                "Storage": 12859,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/29",
+                "Storage": 13227,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/30",
+                "Storage": 13594,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/31",
+                "Storage": 13961,
+                "Inflow": 442,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/01",
+                "Storage": 14329,
+                "Inflow": 717,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/02",
+                "Storage": 14970,
+                "Inflow": 717,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/03",
+                "Storage": 15612,
+                "Inflow": 717,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/04",
+                "Storage": 16253,
+                "Inflow": 717,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/05",
+                "Storage": 16895,
+                "Inflow": 717,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/06",
+                "Storage": 17536,
+                "Inflow": 717,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/07",
+                "Storage": 18178,
+                "Inflow": 717,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/08",
+                "Storage": 18820,
+                "Inflow": 717,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/09",
+                "Storage": 19461,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            }
+        ]
+    },
+    {
+        "Soluction": "期作-Q90",
+        "Values": [
+            {
+                "Date": "2026/04/09",
+                "Storage": 10510,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/10",
+                "Storage": 10450,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/11",
+                "Storage": 10391,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/12",
+                "Storage": 10335,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/13",
+                "Storage": 10279,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/14",
+                "Storage": 10224,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/15",
+                "Storage": 10168,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/16",
+                "Storage": 10112,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/17",
+                "Storage": 10057,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/18",
+                "Storage": 10001,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/19",
+                "Storage": 9945,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/20",
+                "Storage": 9890,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/21",
+                "Storage": 9834,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/22",
+                "Storage": 9780,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/23",
+                "Storage": 9727,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/24",
+                "Storage": 9673,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/25",
+                "Storage": 9619,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/26",
+                "Storage": 9566,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/27",
+                "Storage": 9512,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/28",
+                "Storage": 9458,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/29",
+                "Storage": 9405,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/30",
+                "Storage": 9351,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/01",
+                "Storage": 9297,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/02",
+                "Storage": 9281,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/03",
+                "Storage": 9264,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/04",
+                "Storage": 9247,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/05",
+                "Storage": 9231,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/06",
+                "Storage": 9214,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/07",
+                "Storage": 9197,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/08",
+                "Storage": 9181,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/09",
+                "Storage": 9164,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/10",
+                "Storage": 9147,
+                "Inflow": 58,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/11",
+                "Storage": 9131,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/12",
+                "Storage": 9179,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/13",
+                "Storage": 9228,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/14",
+                "Storage": 9277,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/15",
+                "Storage": 9325,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/16",
+                "Storage": 9374,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/17",
+                "Storage": 9422,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/18",
+                "Storage": 9471,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/19",
+                "Storage": 9519,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/20",
+                "Storage": 9568,
+                "Inflow": 124,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/21",
+                "Storage": 9617,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/22",
+                "Storage": 9878,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/23",
+                "Storage": 10140,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/24",
+                "Storage": 10402,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/25",
+                "Storage": 10664,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/26",
+                "Storage": 10926,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/27",
+                "Storage": 11188,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/28",
+                "Storage": 11450,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/29",
+                "Storage": 11712,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/30",
+                "Storage": 11974,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/31",
+                "Storage": 12236,
+                "Inflow": 337,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/01",
+                "Storage": 12498,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/02",
+                "Storage": 12969,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/03",
+                "Storage": 13439,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/04",
+                "Storage": 13910,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/05",
+                "Storage": 14381,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/06",
+                "Storage": 14851,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/07",
+                "Storage": 15322,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/08",
+                "Storage": 15793,
+                "Inflow": 546,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/09",
+                "Storage": 16263,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            }
+        ]
+    },
+    {
+        "Soluction": "期作-Q95",
+        "Values": [
+            {
+                "Date": "2026/04/09",
+                "Storage": 10510,
+                "Inflow": 12,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/10",
+                "Storage": 10447,
+                "Inflow": 12,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/11",
+                "Storage": 10384,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/12",
+                "Storage": 10325,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/13",
+                "Storage": 10265,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/14",
+                "Storage": 10205,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/15",
+                "Storage": 10145,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/16",
+                "Storage": 10086,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/17",
+                "Storage": 10026,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/18",
+                "Storage": 9966,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/19",
+                "Storage": 9907,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/20",
+                "Storage": 9847,
+                "Inflow": 15,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/21",
+                "Storage": 9787,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/22",
+                "Storage": 9729,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/23",
+                "Storage": 9671,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/24",
+                "Storage": 9613,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/25",
+                "Storage": 9555,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/26",
+                "Storage": 9497,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/27",
+                "Storage": 9438,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/28",
+                "Storage": 9380,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/29",
+                "Storage": 9322,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/30",
+                "Storage": 9264,
+                "Inflow": 17,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/01",
+                "Storage": 9206,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/02",
+                "Storage": 9181,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/03",
+                "Storage": 9155,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/04",
+                "Storage": 9130,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/05",
+                "Storage": 9104,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/06",
+                "Storage": 9079,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/07",
+                "Storage": 9054,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/08",
+                "Storage": 9028,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/09",
+                "Storage": 9003,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/10",
+                "Storage": 8977,
+                "Inflow": 50,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/11",
+                "Storage": 8952,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/12",
+                "Storage": 8982,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/13",
+                "Storage": 9012,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/14",
+                "Storage": 9042,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/15",
+                "Storage": 9072,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/16",
+                "Storage": 9102,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/17",
+                "Storage": 9132,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/18",
+                "Storage": 9162,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/19",
+                "Storage": 9192,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/20",
+                "Storage": 9222,
+                "Inflow": 105,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/21",
+                "Storage": 9252,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/22",
+                "Storage": 9463,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/23",
+                "Storage": 9674,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/24",
+                "Storage": 9886,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/25",
+                "Storage": 10097,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/26",
+                "Storage": 10308,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/27",
+                "Storage": 10520,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/28",
+                "Storage": 10731,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/29",
+                "Storage": 10942,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/30",
+                "Storage": 11154,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/31",
+                "Storage": 11365,
+                "Inflow": 286,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/01",
+                "Storage": 11576,
+                "Inflow": 464,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/02",
+                "Storage": 11965,
+                "Inflow": 464,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/03",
+                "Storage": 12354,
+                "Inflow": 464,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/04",
+                "Storage": 12742,
+                "Inflow": 464,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/05",
+                "Storage": 13131,
+                "Inflow": 464,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/06",
+                "Storage": 13520,
+                "Inflow": 464,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/07",
+                "Storage": 13908,
+                "Inflow": 464,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/08",
+                "Storage": 14297,
+                "Inflow": 464,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/09",
+                "Storage": 14686,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            }
+        ]
+    },
+    {
+        "Soluction": "各旬-Q70",
+        "Values": [
+            {
+                "Date": "2026/04/09",
+                "Storage": 10510,
+                "Inflow": 18,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/10",
+                "Storage": 10453,
+                "Inflow": 18,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/11",
+                "Storage": 10396,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/12",
+                "Storage": 10344,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/13",
+                "Storage": 10292,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/14",
+                "Storage": 10240,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/15",
+                "Storage": 10189,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/16",
+                "Storage": 10137,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/17",
+                "Storage": 10085,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/18",
+                "Storage": 10034,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/19",
+                "Storage": 9982,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/20",
+                "Storage": 9930,
+                "Inflow": 23,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/21",
+                "Storage": 9878,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/22",
+                "Storage": 9830,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/23",
+                "Storage": 9781,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/24",
+                "Storage": 9732,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/25",
+                "Storage": 9683,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/26",
+                "Storage": 9634,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/27",
+                "Storage": 9585,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/28",
+                "Storage": 9537,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/29",
+                "Storage": 9488,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/30",
+                "Storage": 9439,
+                "Inflow": 26,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/01",
+                "Storage": 9390,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/02",
+                "Storage": 9350,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/03",
+                "Storage": 9310,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/04",
+                "Storage": 9270,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/05",
+                "Storage": 9230,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/06",
+                "Storage": 9190,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/07",
+                "Storage": 9150,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/08",
+                "Storage": 9110,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/09",
+                "Storage": 9070,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/10",
+                "Storage": 9030,
+                "Inflow": 35,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/11",
+                "Storage": 8990,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/12",
+                "Storage": 8976,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/13",
+                "Storage": 8962,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/14",
+                "Storage": 8949,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/15",
+                "Storage": 8935,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/16",
+                "Storage": 8921,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/17",
+                "Storage": 8907,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/18",
+                "Storage": 8893,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/19",
+                "Storage": 8880,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/20",
+                "Storage": 8866,
+                "Inflow": 61,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/21",
+                "Storage": 8852,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/22",
+                "Storage": 8937,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/23",
+                "Storage": 9022,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/24",
+                "Storage": 9107,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/25",
+                "Storage": 9192,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/26",
+                "Storage": 9276,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/27",
+                "Storage": 9361,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/28",
+                "Storage": 9446,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/29",
+                "Storage": 9531,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/30",
+                "Storage": 9616,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/31",
+                "Storage": 9701,
+                "Inflow": 160,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/01",
+                "Storage": 9786,
+                "Inflow": 315,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/02",
+                "Storage": 10026,
+                "Inflow": 315,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/03",
+                "Storage": 10265,
+                "Inflow": 315,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/04",
+                "Storage": 10505,
+                "Inflow": 315,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/05",
+                "Storage": 10744,
+                "Inflow": 315,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/06",
+                "Storage": 10984,
+                "Inflow": 315,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/07",
+                "Storage": 11224,
+                "Inflow": 315,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/08",
+                "Storage": 11463,
+                "Inflow": 315,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/09",
+                "Storage": 11703,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            }
+        ]
+    },
+    {
+        "Soluction": "各旬-Q80",
+        "Values": [
+            {
+                "Date": "2026/04/09",
+                "Storage": 10510,
+                "Inflow": 14,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/10",
+                "Storage": 10449,
+                "Inflow": 14,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/11",
+                "Storage": 10387,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/12",
+                "Storage": 10331,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/13",
+                "Storage": 10275,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/14",
+                "Storage": 10219,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/15",
+                "Storage": 10164,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/16",
+                "Storage": 10108,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/17",
+                "Storage": 10052,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/18",
+                "Storage": 9996,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/19",
+                "Storage": 9940,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/20",
+                "Storage": 9884,
+                "Inflow": 19,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/21",
+                "Storage": 9828,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/22",
+                "Storage": 9775,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/23",
+                "Storage": 9722,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/24",
+                "Storage": 9669,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/25",
+                "Storage": 9616,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/26",
+                "Storage": 9563,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/27",
+                "Storage": 9510,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/28",
+                "Storage": 9457,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/29",
+                "Storage": 9404,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/30",
+                "Storage": 9351,
+                "Inflow": 22,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/01",
+                "Storage": 9298,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/02",
+                "Storage": 9254,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/03",
+                "Storage": 9211,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/04",
+                "Storage": 9168,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/05",
+                "Storage": 9124,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/06",
+                "Storage": 9081,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/07",
+                "Storage": 9038,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/08",
+                "Storage": 8994,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/09",
+                "Storage": 8951,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/10",
+                "Storage": 8908,
+                "Inflow": 32,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/11",
+                "Storage": 8864,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/12",
+                "Storage": 8825,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/13",
+                "Storage": 8787,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/14",
+                "Storage": 8748,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/15",
+                "Storage": 8709,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/16",
+                "Storage": 8670,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/17",
+                "Storage": 8631,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/18",
+                "Storage": 8592,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/19",
+                "Storage": 8553,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/20",
+                "Storage": 8514,
+                "Inflow": 36,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/21",
+                "Storage": 8475,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/22",
+                "Storage": 8519,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/23",
+                "Storage": 8563,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/24",
+                "Storage": 8607,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/25",
+                "Storage": 8651,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/26",
+                "Storage": 8695,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/27",
+                "Storage": 8739,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/28",
+                "Storage": 8783,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/29",
+                "Storage": 8827,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/30",
+                "Storage": 8871,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/31",
+                "Storage": 8915,
+                "Inflow": 119,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/01",
+                "Storage": 8959,
+                "Inflow": 220,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/02",
+                "Storage": 9105,
+                "Inflow": 220,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/03",
+                "Storage": 9250,
+                "Inflow": 220,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/04",
+                "Storage": 9395,
+                "Inflow": 220,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/05",
+                "Storage": 9541,
+                "Inflow": 220,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/06",
+                "Storage": 9686,
+                "Inflow": 220,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/07",
+                "Storage": 9832,
+                "Inflow": 220,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/08",
+                "Storage": 9977,
+                "Inflow": 220,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/09",
+                "Storage": 10122,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            }
+        ]
+    },
+    {
+        "Soluction": "各旬-Q90",
+        "Values": [
+            {
+                "Date": "2026/04/09",
+                "Storage": 10510,
+                "Inflow": 12,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/10",
+                "Storage": 10447,
+                "Inflow": 12,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/11",
+                "Storage": 10384,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/12",
+                "Storage": 10322,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/13",
+                "Storage": 10261,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/14",
+                "Storage": 10199,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/15",
+                "Storage": 10138,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/16",
+                "Storage": 10076,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/17",
+                "Storage": 10015,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/18",
+                "Storage": 9953,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/19",
+                "Storage": 9892,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/20",
+                "Storage": 9830,
+                "Inflow": 13,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/21",
+                "Storage": 9769,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/22",
+                "Storage": 9710,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/23",
+                "Storage": 9650,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/24",
+                "Storage": 9591,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/25",
+                "Storage": 9532,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/26",
+                "Storage": 9473,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/27",
+                "Storage": 9414,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/28",
+                "Storage": 9355,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/29",
+                "Storage": 9296,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/30",
+                "Storage": 9236,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/01",
+                "Storage": 9177,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/02",
+                "Storage": 9118,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/03",
+                "Storage": 9059,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/04",
+                "Storage": 8999,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/05",
+                "Storage": 8940,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/06",
+                "Storage": 8881,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/07",
+                "Storage": 8821,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/08",
+                "Storage": 8762,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/09",
+                "Storage": 8702,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/10",
+                "Storage": 8643,
+                "Inflow": 16,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/11",
+                "Storage": 8584,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/12",
+                "Storage": 8530,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/13",
+                "Storage": 8475,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/14",
+                "Storage": 8421,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/15",
+                "Storage": 8367,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/16",
+                "Storage": 8313,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/17",
+                "Storage": 8259,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/18",
+                "Storage": 8205,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/19",
+                "Storage": 8151,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/20",
+                "Storage": 8096,
+                "Inflow": 21,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/21",
+                "Storage": 8042,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/22",
+                "Storage": 8019,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/23",
+                "Storage": 7996,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/24",
+                "Storage": 7973,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/25",
+                "Storage": 7949,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/26",
+                "Storage": 7926,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/27",
+                "Storage": 7903,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/28",
+                "Storage": 7880,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/29",
+                "Storage": 7856,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/30",
+                "Storage": 7833,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/31",
+                "Storage": 7810,
+                "Inflow": 52,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/01",
+                "Storage": 7787,
+                "Inflow": 99,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/02",
+                "Storage": 7811,
+                "Inflow": 99,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/03",
+                "Storage": 7834,
+                "Inflow": 99,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/04",
+                "Storage": 7858,
+                "Inflow": 99,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/05",
+                "Storage": 7882,
+                "Inflow": 99,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/06",
+                "Storage": 7906,
+                "Inflow": 99,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/07",
+                "Storage": 7930,
+                "Inflow": 99,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/08",
+                "Storage": 7954,
+                "Inflow": 99,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/09",
+                "Storage": 7978,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            }
+        ]
+    },
+    {
+        "Soluction": "十年最枯",
+        "Values": [
+            {
+                "Date": "2026/04/09",
+                "Storage": 10510,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/10",
+                "Storage": 10436,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/11",
+                "Storage": 10362,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/12",
+                "Storage": 10289,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/13",
+                "Storage": 10215,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/14",
+                "Storage": 10142,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/15",
+                "Storage": 10068,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/16",
+                "Storage": 9994,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/17",
+                "Storage": 9921,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/18",
+                "Storage": 9847,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/19",
+                "Storage": 9774,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/20",
+                "Storage": 9700,
+                "Inflow": 1,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/21",
+                "Storage": 9626,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/22",
+                "Storage": 9554,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/23",
+                "Storage": 9482,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/24",
+                "Storage": 9410,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/25",
+                "Storage": 9338,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/26",
+                "Storage": 9265,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/27",
+                "Storage": 9193,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/28",
+                "Storage": 9121,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/29",
+                "Storage": 9049,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/04/30",
+                "Storage": 8977,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/01",
+                "Storage": 8904,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/02",
+                "Storage": 8832,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/03",
+                "Storage": 8760,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/04",
+                "Storage": 8687,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/05",
+                "Storage": 8615,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/06",
+                "Storage": 8543,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/07",
+                "Storage": 8470,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/08",
+                "Storage": 8398,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/09",
+                "Storage": 8326,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/10",
+                "Storage": 8253,
+                "Inflow": 3,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/11",
+                "Storage": 8181,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/12",
+                "Storage": 8111,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/13",
+                "Storage": 8041,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/14",
+                "Storage": 7971,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/15",
+                "Storage": 7901,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/16",
+                "Storage": 7831,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/17",
+                "Storage": 7762,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/18",
+                "Storage": 7692,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/19",
+                "Storage": 7622,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/20",
+                "Storage": 7552,
+                "Inflow": 5,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/21",
+                "Storage": 7482,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/22",
+                "Storage": 7409,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/23",
+                "Storage": 7336,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/24",
+                "Storage": 7264,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/25",
+                "Storage": 7191,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/26",
+                "Storage": 7118,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/27",
+                "Storage": 7045,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/28",
+                "Storage": 6972,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/29",
+                "Storage": 6899,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/30",
+                "Storage": 6826,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/05/31",
+                "Storage": 6753,
+                "Inflow": 2,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/01",
+                "Storage": 6681,
+                "Inflow": 4,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/02",
+                "Storage": 6610,
+                "Inflow": 4,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/03",
+                "Storage": 6539,
+                "Inflow": 4,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/04",
+                "Storage": 6468,
+                "Inflow": 4,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/05",
+                "Storage": 6397,
+                "Inflow": 4,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/06",
+                "Storage": 6326,
+                "Inflow": 4,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/07",
+                "Storage": 6255,
+                "Inflow": 4,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/08",
+                "Storage": 6184,
+                "Inflow": 4,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            },
+            {
+                "Date": "2026/06/09",
+                "Storage": 6113,
+                "Inflow": 0,
+                "Irrigation": 0,
+                "DomesicIndustrialWaterOfDay": 75
+            }
+        ]
+    }
+]

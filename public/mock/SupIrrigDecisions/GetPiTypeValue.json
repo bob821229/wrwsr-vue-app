@@ -1,0 +1,13 @@
+[
+    { "label": "Q60", "value": "Q60" },
+    { "label": "Q70", "value": "Q70" },
+    { "label": "Q80", "value": "Q80" },
+    { "label": "Q90", "value": "Q90" },
+    { "label": "Q95", "value": "Q95" },
+    { "label": "十年最枯", "value": "TenYear" },
+    { "label": "I60", "value": "I60" },
+    { "label": "I70", "value": "I70" },
+    { "label": "I80", "value": "I80" },
+    { "label": "I90", "value": "I90" },
+    { "label": "I95", "value": "I95" }
+]

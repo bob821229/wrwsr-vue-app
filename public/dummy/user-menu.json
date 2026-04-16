@@ -11,7 +11,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": false,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 200,
@@ -25,7 +26,8 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": false,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 300,
@@ -39,7 +41,8 @@
     "Ordinal": 3,
     "Authorize": true,
     "Enabled": false,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 20,
@@ -54,7 +57,8 @@
     "Authorize": true,
     "Enabled": true,
     "Visible": true,
-    "SubMenuDispType": 2
+    "SubMenuDispType": 2,
+    "IconComponentName":"clock"
   },
   {
     "Id": 30,
@@ -69,7 +73,8 @@
     "Authorize": true,
     "Enabled": true,
     "Visible": true,
-    "SubMenuDispType": 2
+    "SubMenuDispType": 2,
+    "IconComponentName":"history"
   },
   {
     "Id": 41,
@@ -84,7 +89,8 @@
     "Authorize": true,
     "Enabled": true,
     "Visible": true,
-    "SubMenuDispType": 2
+    "SubMenuDispType": 2,
+    "IconComponentName":"telescope"
   },
   {
     "Id": 50,
@@ -99,7 +105,8 @@
     "Authorize": true,
     "Enabled": true,
     "Visible": true,
-    "SubMenuDispType": 2
+    "SubMenuDispType": 2,
+    "IconComponentName":"wiper"
   },
   {
     "Id": 200,
@@ -113,7 +120,8 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": false,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 210,
@@ -128,7 +136,8 @@
     "Authorize": true,
     "Enabled": true,
     "Visible": true,
-    "SubMenuDispType": 2
+    "SubMenuDispType": 2,
+    "IconComponentName":"clock"
   },
   {
     "Id": 305,
@@ -143,7 +152,8 @@
     "Authorize": true,
     "Enabled": true,
     "Visible": true,
-    "SubMenuDispType": 2
+    "SubMenuDispType": 2,
+    "IconComponentName":"clock"
   },
   {
     "Id": 320,
@@ -158,7 +168,8 @@
     "Authorize": true,
     "Enabled": true,
     "Visible": true,
-    "SubMenuDispType": 2
+    "SubMenuDispType": 2,
+    "IconComponentName":"report-analytics"
   },
   {
     "Id": 330,
@@ -173,7 +184,8 @@
     "Authorize": true,
     "Enabled": true,
     "Visible": true,
-    "SubMenuDispType": 2
+    "SubMenuDispType": 2,
+    "IconComponentName":"droplet-half-filled"
   },
   {
     "Id": 400,
@@ -187,7 +199,8 @@
     "Ordinal": 5,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 500,
@@ -201,7 +214,8 @@
     "Ordinal": 4,
     "Authorize": true,
     "Enabled": false,
-    "Visible": false
+    "Visible": false,
+    "IconComponentName":""
   },
   {
     "Id": 600,
@@ -215,7 +229,8 @@
     "Ordinal": 6,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 21,
@@ -229,7 +244,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 22,
@@ -243,7 +259,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 32,
@@ -257,7 +274,8 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 46,
@@ -271,7 +289,8 @@
     "Ordinal": 5,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 48,
@@ -285,7 +304,8 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 51,
@@ -299,7 +319,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 52,
@@ -313,7 +334,8 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 53,
@@ -327,7 +349,8 @@
     "Ordinal": 3,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 54,
@@ -341,7 +364,8 @@
     "Ordinal": 4,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 211,
@@ -355,7 +379,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 212,
@@ -369,7 +394,8 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 213,
@@ -383,7 +409,8 @@
     "Ordinal": 3,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 230,
@@ -397,7 +424,8 @@
     "Ordinal": 4,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 240,
@@ -411,7 +439,8 @@
     "Ordinal": 5,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 260,
@@ -425,7 +454,8 @@
     "Ordinal": 3,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":"droplet-half-2"
   },
   {
     "Id": 310,
@@ -439,7 +469,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 325,
@@ -453,7 +484,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 326,
@@ -467,7 +499,8 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 335,
@@ -481,7 +514,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 336,
@@ -494,7 +528,8 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":""
   },
   {
     "Id": 410,
@@ -508,7 +543,8 @@
     "Ordinal": 3,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":"apps"
   },
   {
     "Id": 420,
@@ -522,7 +558,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":"apps"
   },
   {
     "Id": 430,
@@ -536,7 +573,8 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":"apps"
   },
   {
     "Id": 431,
@@ -550,7 +588,8 @@
     "Ordinal": 4,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":"report-analytics"
   },
   {
     "Id": 432,
@@ -564,7 +603,8 @@
     "Ordinal": 4,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":"report-analytics"
   },
   {
     "Id": 440,
@@ -578,7 +618,8 @@
     "Ordinal": 4,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":"apps"
   },
   {
     "Id": 610,
@@ -592,7 +633,8 @@
     "Ordinal": 1,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":"droplet-half-2"
   },
   {
     "Id": 620,
@@ -606,6 +648,7 @@
     "Ordinal": 2,
     "Authorize": true,
     "Enabled": true,
-    "Visible": true
+    "Visible": true,
+    "IconComponentName":"droplet-half-2"
   }
 ]

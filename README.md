@@ -1,3 +1,23 @@
+# user-menu.json
+
+新增欄位: "IconComponentName"
+
+範例 {
+"Id": 432,
+"Type": 1,
+"Label": "推估入流量風險評估",
+"Controller": "InflowRiskAssessment",
+"Action": "CalculateflowToRisk",
+"Glyphicon": "report-analytics",
+"Layer": 2,
+"Parent": 500,
+"Ordinal": 4,
+"Authorize": true,
+"Enabled": true,
+"Visible": true,
+"IconComponentName":"report-analytics"
+}
+
 # A304_WRWSR_VUE
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -9,11 +29,11 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Recommended Browser Setup
 
 - Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
+    - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+    - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
 - Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+    - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+    - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
 ## Customize configuration
 

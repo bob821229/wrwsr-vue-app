@@ -1,0 +1,56 @@
+[
+    {
+        "id": "s1001",
+        "solutionName": "114年桃園石門灌溉計畫",
+        "irrigationList": [
+            {
+                "ManageID": "NO1",
+                "ManageName": "一期稻作桃園大圳",
+                "WaterUsage": 17287,
+                "IrrigationDate": "2026-01-01"
+            },
+            {
+                "ManageID": "NO2",
+                "ManageName": "一期稻作石門大圳",
+                "WaterUsage": 5743,
+                "IrrigationDate": "2026-01-01"
+            }
+        ]
+    },
+    {
+        "id": "s1002",
+        "solutionName": "情境二",
+        "irrigationList": [
+            {
+                "ManageID": "NO3",
+                "ManageName": "二期稻作桃園大圳",
+                "WaterUsage": 7287,
+                "IrrigationDate": "2026-01-01"
+            },
+            {
+                "ManageID": "NO4",
+                "ManageName": "二期稻作石門大圳",
+                "WaterUsage": 4743,
+                "IrrigationDate": "2026-01-01"
+            }
+        ]
+    },
+    {
+        "id": "s1003",
+        "solutionName": "情境三",
+        "irrigationList": [
+            {
+                "ManageID": "NO5",
+                "ManageName": "稻作桃園大圳",
+                "WaterUsage": 37287,
+                "IrrigationDate": "2026-01-01"
+            },
+            {
+                "ManageID": "NO6",
+                "ManageName": "稻作石門大圳",
+                "WaterUsage": 15743,
+                "IrrigationDate": "2026-01-01"
+            }
+        ]
+    }
+]
