@@ -1077,7 +1077,7 @@ function markSimulationDirty() {
 
 async function fetchSetSimulationParams() {
     let params = {
-        stationNo: form.stationNo,
+        StationNo: form.stationNo,
         SolutionPrefix: "",
         DemoStartDate: form.demoStartDate,
         SimuStartDate: form.simuStartDate,
