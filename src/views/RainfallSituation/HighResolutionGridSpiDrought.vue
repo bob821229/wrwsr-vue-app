@@ -37,7 +37,11 @@
 
                 <div class="form-row">
                   <label class="form-label">統計分類</label>
-                  <select v-model="queryForm.statisticsCategory" class="custom-select">
+                  <select
+                    v-model="queryForm.statisticsCategory"
+                    class="custom-select"
+                    :disabled="isOptionsLoading"
+                  >
                     <option v-for="item in statisticsCategoryOptions" :key="item.value" :value="item.value">
                       {{ item.label }}
                     </option>
@@ -47,7 +51,7 @@
                 <template v-if="queryForm.statisticsCategory === '行政區域'">
                   <div class="form-row">
                     <label class="form-label">縣市</label>
-                    <select v-model="queryForm.cityName" class="custom-select">
+                    <select v-model="queryForm.cityName" class="custom-select" :disabled="isOptionsLoading">
                       <option value="">全部</option>
                       <option v-for="item in cityOptions" :key="item.code" :value="item.name">
                         {{ item.name }}
@@ -60,7 +64,7 @@
                     <select
                       v-model="queryForm.townName"
                       class="custom-select"
-                      :disabled="!townOptions.length"
+                      :disabled="isOptionsLoading || !townOptions.length"
                     >
                       <option value="">全部</option>
                       <option v-for="item in townOptions" :key="item.code" :value="item.name">
@@ -73,7 +77,11 @@
                 <template v-else-if="queryForm.statisticsCategory === '事業區域'">
                   <div class="form-row">
                     <label class="form-label">管理處</label>
-                    <select v-model="queryForm.managementOfficeName" class="custom-select">
+                    <select
+                      v-model="queryForm.managementOfficeName"
+                      class="custom-select"
+                      :disabled="isOptionsLoading"
+                    >
                       <option value="">全部</option>
                       <option v-for="item in managementOfficeOptions" :key="item.code" :value="item.name">
                         {{ item.name }}
@@ -86,10 +94,10 @@
                     <select
                       v-model="queryForm.branchOfficeName"
                       class="custom-select"
-                      :disabled="!branchOfficeOptions.length"
+                      :disabled="isOptionsLoading || !visibleBranchOfficeOptions.length"
                     >
                       <option value="">全部</option>
-                      <option v-for="item in branchOfficeOptions" :key="item.code" :value="item.name">
+                      <option v-for="item in visibleBranchOfficeOptions" :key="item.code" :value="item.name">
                         {{ item.name }}
                       </option>
                     </select>
@@ -100,10 +108,10 @@
                     <select
                       v-model="queryForm.workStationName"
                       class="custom-select"
-                      :disabled="!workStationOptions.length"
+                      :disabled="isOptionsLoading || !visibleWorkStationOptions.length"
                     >
                       <option value="">全部</option>
-                      <option v-for="item in workStationOptions" :key="item.code" :value="item.name">
+                      <option v-for="item in visibleWorkStationOptions" :key="item.code" :value="item.name">
                         {{ item.name }}
                       </option>
                     </select>
@@ -114,7 +122,7 @@
                     <select
                       v-model="queryForm.irrigationGroupName"
                       class="custom-select"
-                      :disabled="!irrigationGroupOptions.length"
+                      :disabled="isOptionsLoading || !irrigationGroupOptions.length"
                     >
                       <option value="">全部</option>
                       <option v-for="item in irrigationGroupOptions" :key="item.code" :value="item.name">
@@ -127,7 +135,11 @@
                 <template v-else-if="queryForm.statisticsCategory === '水庫集水區'">
                   <div class="form-row">
                     <label class="form-label">集水區</label>
-                    <select v-model="queryForm.watershedName" class="custom-select">
+                    <select
+                      v-model="queryForm.watershedName"
+                      class="custom-select"
+                      :disabled="isOptionsLoading"
+                    >
                       <option value="">全部</option>
                       <option v-for="item in watershedOptions" :key="item.code" :value="item.name">
                         {{ item.name }}
@@ -139,7 +151,11 @@
                 <template v-else-if="queryForm.statisticsCategory === '水庫灌區'">
                   <div class="form-row">
                     <label class="form-label">灌區</label>
-                    <select v-model="queryForm.irrigationDistrictName" class="custom-select">
+                    <select
+                      v-model="queryForm.irrigationDistrictName"
+                      class="custom-select"
+                      :disabled="isOptionsLoading"
+                    >
                       <option value="">全部</option>
                       <option v-for="item in irrigationDistrictOptions" :key="item.code" :value="item.name">
                         {{ item.name }}
@@ -169,10 +185,10 @@
                 <button
                   type="button"
                   class="action-btn action-btn-primary"
-                  :disabled="isLoading"
+                  :disabled="isLoading || isOptionsLoading"
                   @click="handleSearch"
                 >
-                  {{ isLoading ? '查詢中...' : '查詢' }}
+                  {{ isOptionsLoading ? '載入選項中...' : isLoading ? '查詢中...' : '查詢' }}
                 </button>
 
                 
@@ -185,15 +201,12 @@
           <div class="right-card">
             <div class="result-layout">
               <div class="map-panel">
-                <!-- <div class="panel-title">{{ queryForm.spiType }}</div> -->
-                <div class="map-placeholder">
-                  <div class="placeholder-title">GIS 圖資區塊</div>
-                  <div class="placeholder-desc">
-                    查詢後將依 API 回傳結果更新地圖圖層 / raster / legend
-                  </div>
-
-                  <pre class="payload-preview">{{ requestPayloadPreview }}</pre>
-                </div>
+                <HighResolutionGridSpiDroughtMap
+                  ref="gisMapRef"
+                  @loading-change="handleMapLoadingChange"
+                  @stats-computed="handleStatsComputed"
+                  @error="handleMapError"
+                />
               </div>
 
               <div class="table-panel">
@@ -215,10 +228,10 @@
                     </thead>
                     <tbody>
                       <tr v-if="!tableRows.length">
-                        <td colspan="6" class="empty-cell">尚無資料，請先查詢</td>
+                        <td colspan="6" class="empty-cell">{{ tableEmptyMessage }}</td>
                       </tr>
 
-                      <tr v-for="row in tableRows" :key="row.name">
+                      <tr v-for="(row, index) in tableRows" :key="`${row.name}-${index}`">
                         <td>{{ row.name }}</td>
                         <td>{{ row.normal }}</td>
                         <td>{{ row.mild }}</td>
@@ -239,25 +252,24 @@
 </template>
 
 <script setup>
-import { computed, reactive, ref, watch } from 'vue';
+import { computed, onMounted, reactive, ref, watch } from 'vue';
 import dayjs from 'dayjs';
 import Header from '@/components/general/header.vue';
 import PageHeader from '@/components/PageHeader.vue';
+import HighResolutionGridSpiDroughtMap from '@/components/RainfallSituation/HighResolutionGridSpiDroughtMap.vue';
+import { getGisStatisticOptionsByCategory } from '@/apis/modules/RainfallSituation/HighResolutionGridSpiDrought';
 
-/**
- * 這裡請改成你實際放置 JSON 的路徑
- * 例如：@/assets/json/statistics-options.json
- */
-import { getRawStatisticOptions } from '@/apis/modules/RainfallSituation/HighResolutionGridSpiDrought';
-
-// 改為由 API 取得
 const rawStatisticOptions = ref([]);
+const loadedStatisticCategories = new Set();
+const isOptionsLoading = ref(false);
 
 // 若你 API 已經完成，請打開這行並移除下方 mock function
 // import { getHighResolutionGridSpiDrought } from '@/apis/modules/RainfallSituation/HighResolutionGridSpiDrought';
 
 const now = dayjs();
 const currentRocYear = now.year() - 1911;
+const defaultRocYear = 2009 - 1911;
+const defaultMonth = '07';
 
 const spiOptions = [
   { label: 'SPI1', value: 'SPI1' },
@@ -273,7 +285,11 @@ const statisticsCategoryOptions = [
   { label: '水庫灌區', value: '水庫灌區' },
 ];
 
-const rocYearOptions = Array.from({ length: 10 }, (_, index) => currentRocYear - index);
+const firstDataRocYear = 1998 - 1911;
+const rocYearOptions = Array.from(
+  { length: currentRocYear - firstDataRocYear + 1 },
+  (_, index) => currentRocYear - index,
+);
 const monthOptions = Array.from({ length: 12 }, (_, index) => {
   const value = String(index + 1).padStart(2, '0');
   return {
@@ -283,8 +299,8 @@ const monthOptions = Array.from({ length: 12 }, (_, index) => {
 });
 
 const queryForm = reactive({
-  rocYear: currentRocYear,
-  month: now.format('MM'),
+  rocYear: defaultRocYear,
+  month: defaultMonth,
   statisticsCategory: '行政區域',
   spiType: 'SPI1',
   cityName: '',
@@ -299,6 +315,9 @@ const queryForm = reactive({
 
 const isLoading = ref(false);
 const tableRows = ref([]);
+const gisMapRef = ref(null);
+const hasSearched = ref(false);
+const tableErrorMessage = ref('');
 
 const normalizeOptions = (list) => {
   if (!Array.isArray(list)) return [];
@@ -308,6 +327,7 @@ const normalizeOptions = (list) => {
     subCategory: item.subCategory,
     code: item.code,
     name: item.name,
+    parentCode: item.parentCode || null,
   }));
 };
 
@@ -319,7 +339,7 @@ const getUniqueOptions = (list) => {
   const map = new Map();
 
   list.forEach((item) => {
-    const key = `${item.category}-${item.subCategory}-${item.name}`;
+    const key = `${item.category}-${item.subCategory}-${item.parentCode || ''}-${item.code}-${item.name}`;
     if (!map.has(key)) {
       map.set(key, item);
     }
@@ -328,12 +348,24 @@ const getUniqueOptions = (list) => {
   return Array.from(map.values());
 };
 
+const isPlaceholderLevelOption = (item) => {
+  if (!item?.name || !item?.subCategory) return false;
+  return String(item.name).includes(`無${item.subCategory}`);
+};
+
+const getVisibleOptions = (list) => {
+  return list.filter((item) => !isPlaceholderLevelOption(item));
+};
+
 const cityOptions = computed(() => {
   return getUniqueOptions(
     allOptions.value.filter(
       (item) => item.category === '行政區域' && item.subCategory === '縣市',
     ),
   );
+});
+const selectedCityOption = computed(() => {
+  return cityOptions.value.find((item) => item.name === queryForm.cityName) || null;
 });
 
 const allTownOptions = computed(() => {
@@ -347,12 +379,14 @@ const allTownOptions = computed(() => {
 const townOptions = computed(() => {
   if (!queryForm.cityName) return [];
 
-  const selectedCity = cityOptions.value.find((item) => item.name === queryForm.cityName);
-  if (!selectedCity) return [];
+  if (!selectedCityOption.value) return [];
 
   return getUniqueOptions(
-    allTownOptions.value.filter((item) => item.code.startsWith(selectedCity.code)),
+    allTownOptions.value.filter((item) => item.parentCode === selectedCityOption.value.code),
   );
+});
+const selectedTownOption = computed(() => {
+  return townOptions.value.find((item) => item.name === queryForm.townName) || null;
 });
 
 const managementOfficeOptions = computed(() => {
@@ -361,6 +395,11 @@ const managementOfficeOptions = computed(() => {
       (item) => item.category === '事業區域' && item.subCategory === '管理處',
     ),
   );
+});
+const selectedManagementOfficeOption = computed(() => {
+  return managementOfficeOptions.value.find(
+    (item) => item.name === queryForm.managementOfficeName,
+  ) || null;
 });
 
 const allBranchOfficeOptions = computed(() => {
@@ -374,16 +413,21 @@ const allBranchOfficeOptions = computed(() => {
 const branchOfficeOptions = computed(() => {
   if (!queryForm.managementOfficeName) return [];
 
-  const selectedManagementOffice = managementOfficeOptions.value.find(
-    (item) => item.name === queryForm.managementOfficeName,
-  );
-  if (!selectedManagementOffice) return [];
+  if (!selectedManagementOfficeOption.value) return [];
 
   return getUniqueOptions(
-    allBranchOfficeOptions.value.filter((item) =>
-      item.code.startsWith(selectedManagementOffice.code),
+    allBranchOfficeOptions.value.filter(
+      (item) => item.parentCode === selectedManagementOfficeOption.value.code,
     ),
   );
+});
+
+const visibleBranchOfficeOptions = computed(() => {
+  return getVisibleOptions(branchOfficeOptions.value);
+});
+
+const selectedBranchOfficeOption = computed(() => {
+  return visibleBranchOfficeOptions.value.find((item) => item.name === queryForm.branchOfficeName) || null;
 });
 
 const allWorkStationOptions = computed(() => {
@@ -396,34 +440,38 @@ const allWorkStationOptions = computed(() => {
 
 const workStationOptions = computed(() => {
   if (queryForm.branchOfficeName) {
-    const selectedBranchOffice = branchOfficeOptions.value.find(
-      (item) => item.name === queryForm.branchOfficeName,
-    );
-
-    if (!selectedBranchOffice) return [];
+    if (!selectedBranchOfficeOption.value) return [];
 
     return getUniqueOptions(
-      allWorkStationOptions.value.filter((item) =>
-        item.code.startsWith(selectedBranchOffice.code),
+      allWorkStationOptions.value.filter(
+        (item) => item.parentCode === selectedBranchOfficeOption.value.code,
       ),
     );
   }
 
   if (queryForm.managementOfficeName) {
-    const selectedManagementOffice = managementOfficeOptions.value.find(
-      (item) => item.name === queryForm.managementOfficeName,
-    );
-
-    if (!selectedManagementOffice) return [];
+    if (!selectedManagementOfficeOption.value) return [];
 
     return getUniqueOptions(
       allWorkStationOptions.value.filter((item) =>
-        item.code.startsWith(selectedManagementOffice.code),
+        branchOfficeOptions.value.some(
+          (branchOffice) =>
+            branchOffice.parentCode === selectedManagementOfficeOption.value.code &&
+            item.parentCode === branchOffice.code,
+        ),
       ),
     );
   }
 
   return [];
+});
+
+const visibleWorkStationOptions = computed(() => {
+  return getVisibleOptions(workStationOptions.value);
+});
+
+const selectedWorkStationOption = computed(() => {
+  return visibleWorkStationOptions.value.find((item) => item.name === queryForm.workStationName) || null;
 });
 
 const allIrrigationGroupOptions = computed(() => {
@@ -435,26 +483,46 @@ const allIrrigationGroupOptions = computed(() => {
 });
 
 const irrigationGroupOptions = computed(() => {
-  if (!queryForm.workStationName) return [];
+  if (!queryForm.workStationName) {
+    if (!queryForm.managementOfficeName) return [];
+    if (visibleWorkStationOptions.value.length) return [];
 
-  const selectedWorkStation = workStationOptions.value.find(
-    (item) => item.name === queryForm.workStationName,
-  );
-  if (!selectedWorkStation) return [];
+    const parentWorkStationCodes = workStationOptions.value.map((item) => item.code);
+    if (!parentWorkStationCodes.length) return [];
+
+    return getUniqueOptions(
+      allIrrigationGroupOptions.value.filter((item) =>
+        parentWorkStationCodes.includes(item.parentCode),
+      ),
+    );
+  }
+
+  if (!selectedWorkStationOption.value) return [];
 
   return getUniqueOptions(
-    allIrrigationGroupOptions.value.filter((item) =>
-      item.code.startsWith(selectedWorkStation.code),
+    allIrrigationGroupOptions.value.filter(
+      (item) => item.parentCode === selectedWorkStationOption.value.code,
     ),
   );
+});
+const selectedIrrigationGroupOption = computed(() => {
+  return irrigationGroupOptions.value.find((item) => item.name === queryForm.irrigationGroupName) || null;
 });
 
 const watershedOptions = computed(() => {
   return getUniqueOptions(allOptions.value.filter((item) => item.category === '水庫集水區'));
 });
+const selectedWatershedOption = computed(() => {
+  return watershedOptions.value.find((item) => item.name === queryForm.watershedName) || null;
+});
 
 const irrigationDistrictOptions = computed(() => {
   return getUniqueOptions(allOptions.value.filter((item) => item.category === '水庫灌區'));
+});
+const selectedIrrigationDistrictOption = computed(() => {
+  return irrigationDistrictOptions.value.find(
+    (item) => item.name === queryForm.irrigationDistrictName,
+  ) || null;
 });
 
 watch(
@@ -468,6 +536,10 @@ watch(
     queryForm.irrigationGroupName = '';
     queryForm.watershedName = '';
     queryForm.irrigationDistrictName = '';
+    tableRows.value = [];
+    hasSearched.value = false;
+    tableErrorMessage.value = '';
+    loadStatisticOptionsByCategory(queryForm.statisticsCategory);
   },
 );
 
@@ -510,19 +582,23 @@ const requestPayload = computed(() => {
     month: queryForm.month,
     spiType: queryForm.spiType,
     statisticsCategory: queryForm.statisticsCategory,
+    cityCode: selectedCityOption.value?.code || null,
     cityName: queryForm.cityName || null,
+    townCode: selectedTownOption.value?.code || null,
     townName: queryForm.townName || null,
+    managementOfficeCode: selectedManagementOfficeOption.value?.code || null,
     managementOfficeName: queryForm.managementOfficeName || null,
+    branchOfficeCode: selectedBranchOfficeOption.value?.code || null,
     branchOfficeName: queryForm.branchOfficeName || null,
+    workStationCode: selectedWorkStationOption.value?.code || null,
     workStationName: queryForm.workStationName || null,
+    irrigationGroupCode: selectedIrrigationGroupOption.value?.code || null,
     irrigationGroupName: queryForm.irrigationGroupName || null,
+    watershedCode: selectedWatershedOption.value?.code || null,
     watershedName: queryForm.watershedName || null,
+    irrigationDistrictCode: selectedIrrigationDistrictOption.value?.code || null,
     irrigationDistrictName: queryForm.irrigationDistrictName || null,
   };
-});
-
-const requestPayloadPreview = computed(() => {
-  return JSON.stringify(requestPayload.value, null, 2);
 });
 
 const tableFirstColumnLabel = computed(() => {
@@ -536,9 +612,16 @@ const tableFirstColumnLabel = computed(() => {
   return map[queryForm.statisticsCategory] || '分類';
 });
 
+const tableEmptyMessage = computed(() => {
+  if (tableErrorMessage.value) return tableErrorMessage.value;
+  if (isLoading.value) return 'GIS 統計中...';
+  if (hasSearched.value) return '查無 SPI 圖資或統計結果';
+  return '尚無資料，請先查詢';
+});
+
 const handleReset = () => {
-  queryForm.rocYear = currentRocYear;
-  queryForm.month = now.format('MM');
+  queryForm.rocYear = defaultRocYear;
+  queryForm.month = defaultMonth;
   queryForm.statisticsCategory = '行政區域';
   queryForm.spiType = 'SPI1';
   queryForm.cityName = '';
@@ -550,63 +633,65 @@ const handleReset = () => {
   queryForm.watershedName = '';
   queryForm.irrigationDistrictName = '';
   tableRows.value = [];
+  hasSearched.value = false;
+  tableErrorMessage.value = '';
 };
+// 下拉選項來源為GIS圖資，當使用者選擇統計分類後會呼叫GIS的API取得對應的下拉選項，以下為選項載入邏輯：
+const loadStatisticOptionsByCategory = async (category) => {
+  if (loadedStatisticCategories.has(category)) return;
 
-// 初始化時先取得統計分類資料
-const initStatisticOptions = async () => {
+  isOptionsLoading.value = true;
+
   try {
-    const response = await getRawStatisticOptions();
-    const options = response?.data?.data || response?.data || response || [];
-    rawStatisticOptions.value = Array.isArray(options) ? options : [];
+    const options = await getGisStatisticOptionsByCategory(category);
+    rawStatisticOptions.value = [
+      ...rawStatisticOptions.value.filter((item) => item.category !== category),
+      ...options,
+    ];
+    loadedStatisticCategories.add(category);
   } catch (error) {
-    console.error('取得統計分類資料失敗：', error);
-    rawStatisticOptions.value = [];
+    console.error(`取得 ${category} GIS 下拉選項失敗：`, error);
+    rawStatisticOptions.value = rawStatisticOptions.value.filter(
+      (item) => item.category !== category,
+    );
+  } finally {
+    isOptionsLoading.value = false;
   }
 };
 
-initStatisticOptions();
+onMounted(() => {
+  loadStatisticOptionsByCategory(queryForm.statisticsCategory);
+});
 
+// SPI資料來源為GIS圖資，查詢時會直接呼叫GIS的API進行統計，因此不需要額外呼叫後端API。以下為查詢處理邏輯：
 const handleSearch = async () => {
   isLoading.value = true;
+  hasSearched.value = true;
+  tableErrorMessage.value = '';
+  tableRows.value = [];
 
   try {
-    const payload = requestPayload.value;
-
-    // ====== 這裡換成你真正的 API ======
-    // const { data } = await getHighResolutionGridSpiDrought(payload);
-    // tableRows.value = data.tableRows;
-    // mapData.value = data.mapData;
-
-    const data = await mockGetHighResolutionGridSpiDrought(payload);
-    tableRows.value = data.tableRows;
+    const rows = await gisMapRef.value.runSearch(requestPayload.value);
+    tableRows.value = rows;
   } catch (error) {
     console.error('高解析格點 SPI 乾旱指標查詢失敗：', error);
+    tableErrorMessage.value = 'GIS 查詢失敗，請稍後再試';
     tableRows.value = [];
   } finally {
     isLoading.value = false;
   }
 };
 
-const mockGetHighResolutionGridSpiDrought = async (payload) => {
-  await new Promise((resolve) => setTimeout(resolve, 500));
+const handleMapLoadingChange = (loading) => {
+  isLoading.value = loading;
+};
 
-  const sourceOptionsMap = {
-    行政區域: cityOptions.value,
-    事業區域: managementOfficeOptions.value,
-    水庫集水區: watershedOptions.value,
-    水庫灌區: irrigationDistrictOptions.value,
-  };
+const handleStatsComputed = (rows) => {
+  tableRows.value = rows;
+};
 
-  const rows = (sourceOptionsMap[payload.statisticsCategory] || []).slice(0, 8).map((item, index) => ({
-    name: item.name,
-    normal: 20 + index,
-    mild: 15 + index,
-    moderate: 8 + index,
-    severe: index,
-    extreme: index % 2,
-  }));
-
-  return { tableRows: rows };
+const handleMapError = () => {
+  tableErrorMessage.value = 'GIS 查詢失敗，請稍後再試';
 };
 </script>
 
