@@ -111,11 +111,11 @@ const categoryConfig = {
 };
 
 const legendItems = [
-  { label: '<= -2.0', color: '#053061' },
-  { label: '-2.0 ~ -1.5', color: '#256baf' },
-  { label: '-1.5 ~ -1.0', color: '#559ec9' },
-  { label: '-1.0 ~ -0.5', color: '#a7d0e4' },
-  { label: '> -0.5', color: '#f7b799' },
+  { label: '<= -2.0', color: '#67001f' },
+  { label: '-2.0 ~ -1.5', color: '#b6202f' },
+  { label: '-1.5 ~ -1.0', color: '#dd6f59' },
+  { label: '-1.0 ~ -0.5', color: '#f7b799' },
+  { label: '> -0.5', color: '#e2edf3' },
 ];
 
 const mapContainer = ref(null);
@@ -285,16 +285,16 @@ const requireArcGisModules = () => {
 const createDroughtRenderer = () => ({
   type: 'class-breaks',
   classBreakInfos: [
-    { minValue: -9999, maxValue: -2.0, symbol: { type: 'simple-fill', color: '#053061', outline: null }, label: '<= -2.0' },
-    { minValue: -2.0, maxValue: -1.5, symbol: { type: 'simple-fill', color: '#256baf', outline: null }, label: '-2.0 ~ -1.5' },
-    { minValue: -1.5, maxValue: -1.0, symbol: { type: 'simple-fill', color: '#559ec9', outline: null }, label: '-1.5 ~ -1.0' },
-    { minValue: -1.0, maxValue: -0.5, symbol: { type: 'simple-fill', color: '#a7d0e4', outline: null }, label: '-1.0 ~ -0.5' },
-    { minValue: -0.5, maxValue: 0.0, symbol: { type: 'simple-fill', color: '#e2edf3', outline: null }, label: '-0.5 ~ 0.0' },
-    { minValue: 0.0, maxValue: 0.5, symbol: { type: 'simple-fill', color: '#fae7dc', outline: null }, label: '0.0 ~ 0.5' },
-    { minValue: 0.5, maxValue: 1.0, symbol: { type: 'simple-fill', color: '#f7b799', outline: null }, label: '0.5 ~ 1.0' },
-    { minValue: 1.0, maxValue: 1.5, symbol: { type: 'simple-fill', color: '#dd6f59', outline: null }, label: '1.0 ~ 1.5' },
-    { minValue: 1.5, maxValue: 2.0, symbol: { type: 'simple-fill', color: '#b6202f', outline: null }, label: '1.5 ~ 2.0' },
-    { minValue: 2.0, maxValue: 9999, symbol: { type: 'simple-fill', color: '#67001f', outline: null }, label: '> 2.0' },
+    { minValue: -9999, maxValue: -2.0, symbol: { type: 'simple-fill', color: '#67001f', outline: null }, label: '<= -2.0' },
+    { minValue: -2.0, maxValue: -1.5, symbol: { type: 'simple-fill', color: '#b6202f', outline: null }, label: '-2.0 ~ -1.5' },
+    { minValue: -1.5, maxValue: -1.0, symbol: { type: 'simple-fill', color: '#dd6f59', outline: null }, label: '-1.5 ~ -1.0' },
+    { minValue: -1.0, maxValue: -0.5, symbol: { type: 'simple-fill', color: '#f7b799', outline: null }, label: '-1.0 ~ -0.5' },
+    { minValue: -0.5, maxValue: 0.0, symbol: { type: 'simple-fill', color: '#fae7dc', outline: null }, label: '-0.5 ~ 0.0' },
+    { minValue: 0.0, maxValue: 0.5, symbol: { type: 'simple-fill', color: '#e2edf3', outline: null }, label: '0.0 ~ 0.5' },
+    { minValue: 0.5, maxValue: 1.0, symbol: { type: 'simple-fill', color: '#a7d0e4', outline: null }, label: '0.5 ~ 1.0' },
+    { minValue: 1.0, maxValue: 1.5, symbol: { type: 'simple-fill', color: '#559ec9', outline: null }, label: '1.0 ~ 1.5' },
+    { minValue: 1.5, maxValue: 2.0, symbol: { type: 'simple-fill', color: '#256baf', outline: null }, label: '1.5 ~ 2.0' },
+    { minValue: 2.0, maxValue: 9999, symbol: { type: 'simple-fill', color: '#053061', outline: null }, label: '> 2.0' },
   ],
 });
 
